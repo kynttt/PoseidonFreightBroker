@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import Logo from "../images/logo/logo.png";
+import Logo from "../images/logo/fb-icon.png";
 import { useState } from "react";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
 
   const openNav = () => {
-    setNav(!nav);
+    setNav(!nav); 
   };
 
   return (
