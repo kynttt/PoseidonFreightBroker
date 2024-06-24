@@ -71,7 +71,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: transparent;
+  background-color: green;
   z-index: 99999;
   margin: 0 auto;
 }
@@ -457,7 +457,6 @@ body {
 }
 .book-content__box button {
   padding: 1.3rem 1.3rem;
-  height: -moz-fit-content;
   height: fit-content;
   align-self: self-end;
   border: none;
@@ -1151,7 +1150,6 @@ body {
   transition: all 0.3s;
   border: 2px solid #ff4d30;
   font-size: 1.6rem;
-  width: -moz-fit-content;
   width: fit-content;
 }
 .text-container__left a:hover {
@@ -1580,7 +1578,6 @@ footer {
   transition: all 0.3s;
   border: 2px solid #ff4d30;
   font-size: 1.6rem;
-  width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
   width: 100%;
@@ -1747,7 +1744,6 @@ footer {
 }
 @media (max-width: 750px) {
   .book-banner {
-    height: -moz-fit-content;
     height: fit-content;
     padding: 1rem 0;
   }
@@ -1807,14 +1803,12 @@ footer {
 @media (max-width: 1150px) {
   .models-div {
     grid-template-columns: 1fr 1fr;
-    width: -moz-fit-content;
     width: fit-content;
   }
 }
 @media (max-width: 800px) {
   .models-div {
     grid-template-columns: 1fr;
-    width: -moz-fit-content;
     width: fit-content;
   }
 }
@@ -1884,8 +1878,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
+  column-gap: 7rem;
   margin-top: 2.5rem;
   margin: 2rem auto;
   padding-bottom: 2.5rem;
@@ -1934,14 +1927,12 @@ footer {
 @media (max-width: 1150px) {
   .team-container {
     grid-template-columns: 1fr 1fr;
-    width: -moz-fit-content;
     width: fit-content;
   }
 }
 @media (max-width: 800px) {
   .team-container {
     grid-template-columns: 1fr;
-    width: -moz-fit-content;
     width: fit-content;
   }
 }
@@ -2077,4 +2068,6 @@ footer {
 .contact-div__form form button:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
   background-color: #fa4226;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
